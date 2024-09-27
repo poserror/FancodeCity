@@ -13,16 +13,6 @@ Users' tasks are fetched from a /todos API.
 The completion percentage for each user's tasks is calculated.
 If a user has completed more than 50% of their tasks, they pass the test.
 
-Project Structure:
-Copy code
-├── services/
-│   ├── base_service.py        # Handles the base API request logic
-│   ├── user_service.py        # Service to handle user-related logic
-│   └── todo_service.py        # Service to handle todo-related logic
-├── test_fancode_users.py      # Contains test cases for FanCode and non-FanCode users
-├── README.md                  # Project documentation
-├── requirements.txt           # Project dependencies
-
 Service Files:
   user_service.py:
   - Fetches users from the API.
@@ -35,7 +25,7 @@ Service Files:
   base_service.py
   - GET/POST/PUT/DELETE endpoints
 
-Test Files:
+Test:
 test_fancode_users.py  
 - Contains two test cases
 - Tests that users from the FanCode city have completed more than 50% of their tasks.
