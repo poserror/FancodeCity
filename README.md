@@ -43,7 +43,27 @@ test_fancode_users.py
 Installation
 1) Clone the repository: git clone https://github.com/your-username/fancode-todo-automation.git
 2) cd fancode-todo-automation
-3) pip install -r requirements.txt
+3) python3 -m pip install -r requirements.txt
 4) To run the test cases, use pytest with the following command:
 5) pytest test_fancode_users.py --disable-warnings -s
-   (The -s option ensures that the output from print() statements is shown.)
+   (The -s option ensures that the output from print() statements is shown when running through pytest.)
+
+
+Sample output
+HP@LAPTOP-SQ3RMDF9 MINGW64 ~/Downloads/FanCode (main)
+$ pytest test_fancode_users.py --disable-warnings -s
+============================= test session starts =============================
+platform win32 -- Python 3.12.2, pytest-6.2.5, py-1.11.0, pluggy-1.5.0
+rootdir: C:\Users\HP\Downloads\FanCode
+plugins: django-4.5.2, timeout-2.2.0
+collected 1 item
+
+test_fancode_users.py
+Completion percentage for user Leanne Graham is 55.00000000000001%.
+
+Completion percentage for user Chelsey Dietrich is 60.0%.
+
+Completion percentage for user Clementina DuBuque is 60.0%.
+.
+
+============================== 1 passed in 1.98s ==============================
