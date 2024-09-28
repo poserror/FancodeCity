@@ -13,6 +13,9 @@ Users' tasks are fetched from a /todos API.
 The completion percentage for each user's tasks is calculated.
 If a user has completed more than 50% of their tasks, they pass the test.
 
+Key highlight:
+- The structure is such that any new testcase can be easily automated by using the services.
+
 Service Files:
   user_service.py:
   - Fetches users from the API.
@@ -57,3 +60,9 @@ Completion percentage for user Clementina DuBuque is 60.0%.
 .
 
 ============================== 1 passed in 1.98s ==============================
+
+
+Additional Report
+Visualize.py
+How to run: python Visualize.py
+It creates 2 png and a pdf file containing pie chart and a graph. It help in visualizing the data in a better way.

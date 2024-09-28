@@ -24,7 +24,7 @@ def test_all_users():
         if completion_percentage < required_completed_percentage:
             failed_users.append(user['name'])
 
-
+    # If there are users with completion percent less than required, fail the testcase
     if len(failed_users) > 0:
         pytest.fail(f"{failed_users}")    
     
