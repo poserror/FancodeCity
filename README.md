@@ -62,7 +62,17 @@ Completion percentage for user Clementina DuBuque is 60.0%.
 ============================== 1 passed in 1.98s ==============================
 
 
-Additional Report: Visualize.py
+Additional enhancements:
+
+Added basic automation to test each API for test all the methods GET/PUT/POST/DELETE
+ - pytest test_albums.py --disable-warnings -s
+ - pytest test_comments.py --disable-warnings -s
+ - pytest test_photos.py --disable-warnings -s
+ - pytest test_posts.py --disable-warnings -s
+ - pytest test_todos.py --disable-warnings -sI 
+ - pytest test_users.py --disable-warnings -s
+
+PDF Report creation
 How to run: 
 python Visualize.py
 It creates 2 png and a pdf file containing pie chart and a graph. It help in visualizing the data in a better way.

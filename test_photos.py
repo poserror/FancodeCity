@@ -2,6 +2,7 @@ from services.base_service import get, post, put, delete
 
 def test_get_photos():
     photos = get('photos')
+    print("Number of photos uploaded: ",len(photos))
     assert len(photos) > 0, "No photos returned."
     assert 'albumId' in photos[0], "Photos do not contain 'albumId'."
     assert 'title' in photos[0], "Photos do not contain 'title'."
