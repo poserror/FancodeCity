@@ -38,8 +38,8 @@ Installation
 2) cd fancode-todo-automation
 3) python3 -m pip install -r requirements.txt
 4) To run the test cases, use pytest with the following command:
-   pytest test_fancode_users.py --disable-warnings -s
-   (The -s option ensures that the output from print() statements is shown when running through pytest.)
+   -> pytest test_fancode_users.py --disable-warnings -s
+   -> (The -s option ensures that the output from print() statements is shown when running through pytest.)
 
 
 Sample output
