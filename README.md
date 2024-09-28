@@ -73,6 +73,5 @@ Added basic automation to test each API for test all the methods GET/PUT/POST/DE
  - pytest test_users.py --disable-warnings -s
 
 PDF Report creation
-How to run: 
-python Visualize.py
-It creates 2 png and a pdf file containing pie chart and a graph. It help in visualizing the data in a better way.
+- How to run: python Visualize.py
+- It creates 2 png and a pdf file containing pie chart and a graph. It help in visualizing the data in a better way.
