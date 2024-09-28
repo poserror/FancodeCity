@@ -62,7 +62,7 @@ Completion percentage for user Clementina DuBuque is 60.0%.
 ============================== 1 passed in 1.98s ==============================
 
 
-Additional Report
-Visualize.py
-How to run: python Visualize.py
+Additional Report: Visualize.py
+How to run: 
+python Visualize.py
 It creates 2 png and a pdf file containing pie chart and a graph. It help in visualizing the data in a better way.
